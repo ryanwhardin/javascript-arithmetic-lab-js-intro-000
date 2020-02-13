@@ -1,37 +1,31 @@
 function add(a,b){
-  return (a+b)
+  return a+b
 }
 
 function subtract(a,b){
-  return (a-b)
+  return a-b
 }
 
 function multiply(a,b){
-  return (a*b)
+  return a*b
 }
 
 function divide(a,b){
-  return (a/b)
+  return a/b
 }
 
 function increment(n){
-  return (n+=1)
+  return n+=1
 }
 
 function decrement(n){
-  return (n-=1)
+  return n-=1
 }
 
 function makeInt(n){
-<<<<<<< HEAD
-  var number = parseInt(n,10)
-  return (number)
+  return parseInt(n,10)
 }
 
 function preserveDecimal(n){
-  var number = parseFloat(n)
-  return (number)
-=======
-  parseInt(n,10)
->>>>>>> aae662f5df397a59c04ead773c39f4a8bac8da41
+  return parseFloat(n)
 }
