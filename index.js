@@ -23,6 +23,7 @@ function decrement(n){
 }
 
 function makeInt(n){
+<<<<<<< HEAD
   var number = parseInt(n,10)
   return (number)
 }
@@ -30,4 +31,7 @@ function makeInt(n){
 function preserveDecimal(n){
   var number = parseFloat(n)
   return (number)
+=======
+  parseInt(n,10)
+>>>>>>> aae662f5df397a59c04ead773c39f4a8bac8da41
 }
